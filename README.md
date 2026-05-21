@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# BioSignal Agent 🧬
+
+> **Know when to push, when to rest, when to let the agent take over.**
+
+Built for **晚安，黑客 · Good Night, Hackers 2026** — a 24-hour hackathon that rewards healthy delivery over all-nighters.
+
+## What it does
+
+BioSignal Agent analyzes multi-modal longevity biomarker data and uses Claude AI to generate a real-time developer state signal:
+
+- **⚡ FOCUS NOW** — your biology is primed, push hard
+- **🌤 LIGHT WORK** — moderate state, let the agent handle heavy lifting  
+- **🌙 REST & RECOVER** — step away, agent takes over the task queue
+
+## Features
+
+- **Biomarker Dashboard** — Inflammation (CRP), Melatonin, Telomere health, Immune function, Nutrition, Gut microbiome
+- **Biological Age** vs chronological age comparison
+- **Claude-powered analysis** — synthesizes 6 biomarker dimensions into one actionable state signal
+- **Agent Task Queue** — shows what your agent executes while you sleep
+- **Recovery Protocol** — personalized tips based on your actual biomarker values
+
+## Demo Data
+
+5 anonymized patient profiles from **Regenerative Bio** (provided by muShanghai Longevity):
+
+| Profile | Key Reports |
+|---------|------------|
+| 10y Female | Melatonin, Food Allergy, Immunity, Amino Acids, Gut Microbiome |
+| 28y Male | Full Medical Examination |
+| 30y Male | Health Checkup |
+| 41y Male | Inflammation, Telomere, Melatonin, Nutrition, Antioxidant, Immune Cells |
+| 51y Female | Lab Tests, Genetics, Gut Microbiome, DHEA, Nutrition |
+
+Open-source wearable datasets from [PhysioNet](https://physionet.org/): BUTPPG, DREAMT, MMASH, sleep-accel.
+
+## Tech Stack
+
+- **Next.js 14** (App Router) + TypeScript + Tailwind CSS
+- **Anthropic Claude API** (`claude-sonnet-4-6`) for biomarker analysis
+- **Vercel** for deployment
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+git clone https://github.com/GuoZhuoRan/biosignal-agent
+cd biosignal-agent
+npm install
+
+# Add your Anthropic API key
+echo "ANTHROPIC_API_KEY=your_key_here" > .env.local
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Prize Targets
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Award | Why |
+|-------|-----|
+| LAIFE Recovery Agent Challenge ¥1,000 | Integrates biomarker data + wearable signals → decision agent |
+| 最佳 Agent 执行效率奖 ¥1,000 | Agent task queue runs while developer sleeps |
+| 全场奖 up to ¥3,000 | Complete 24h delivery with real data, real AI, real demo |
 
-## Learn More
+## Data Notice
 
-To learn more about Next.js, take a look at the following resources:
+Demo data is anonymized and provided for educational/exploratory use only.  
+Not medical advice. Not a diagnostic tool. Data used with permission from Regenerative Bio.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built with Claude Code at 晚安，黑客 · Good Night, Hackers 2026 · Shanghai
