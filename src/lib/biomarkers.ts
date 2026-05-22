@@ -19,7 +19,7 @@ export interface BiomarkerProfile {
 export const DEMO_PROFILES: BiomarkerProfile[] = [
   {
     id: "10f",
-    label: "10 Years Old · Female",
+    label: "The Baseline",
     age: 10,
     sex: "Female",
     biomarkers: {
@@ -36,7 +36,7 @@ export const DEMO_PROFILES: BiomarkerProfile[] = [
   },
   {
     id: "28m",
-    label: "28 Years Old · Male",
+    label: "The Grinder",
     age: 28,
     sex: "Male",
     biomarkers: {
@@ -53,7 +53,7 @@ export const DEMO_PROFILES: BiomarkerProfile[] = [
   },
   {
     id: "30m",
-    label: "30 Years Old · Male",
+    label: "The Peak Performer",
     age: 30,
     sex: "Male",
     biomarkers: {
@@ -70,7 +70,7 @@ export const DEMO_PROFILES: BiomarkerProfile[] = [
   },
   {
     id: "41m",
-    label: "41 Years Old · Male",
+    label: "The Burned-Out",
     age: 41,
     sex: "Male",
     biomarkers: {
@@ -87,7 +87,7 @@ export const DEMO_PROFILES: BiomarkerProfile[] = [
   },
   {
     id: "51f",
-    label: "51 Years Old · Female",
+    label: "The Experienced",
     age: 51,
     sex: "Female",
     biomarkers: {

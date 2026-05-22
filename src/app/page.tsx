@@ -108,8 +108,10 @@ export default function Home() {
                     : "border-white/10 bg-white/5 hover:border-white/20 hover:bg-white/8"
                 }`}
               >
-                <div className="text-lg mb-1">{p.sex === "Female" ? "👩" : "👨"}</div>
-                <div className="text-xs font-medium text-white">{p.age}y {p.sex.charAt(0)}</div>
+                <div className="text-lg mb-1">
+                  {p.id === "10f" ? "🌟" : p.id === "28m" ? "💻" : p.id === "30m" ? "⚡" : p.id === "41m" ? "🔥" : "🧘"}
+                </div>
+                <div className="text-xs font-medium text-white">{p.label}</div>
                 <div className={`text-xs mt-1 font-bold ${p.overallScore >= 80 ? "text-green-400" : p.overallScore >= 60 ? "text-yellow-400" : "text-red-400"}`}>
                   {p.overallScore}/100
                 </div>

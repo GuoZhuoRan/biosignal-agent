@@ -5,7 +5,7 @@ const MOCK_ANALYSES: Record<string, object> = {
   "10f": {
     stateSignal: "FOCUS NOW",
     agentMode: "Driver 🚗 — You lead, Agent executes",
-    headline: "Peak biological youth — every system is running optimally.",
+    headline: "Biological ideal — this is what every system running at full capacity looks like.",
     keyInsights: [
       "CRP at 0.4 mg/L signals near-zero systemic inflammation",
       "Melatonin at 42 pg/mL enables deep, restorative sleep cycles",
@@ -25,7 +25,7 @@ const MOCK_ANALYSES: Record<string, object> = {
   "28m": {
     stateSignal: "LIGHT WORK",
     agentMode: "Navigator 🧭 — You direct, Agent builds",
-    headline: "Mild inflammation and low melatonin — body needs support tonight.",
+    headline: "Classic overworked developer — grinding is showing up in the biomarkers.",
     keyInsights: [
       "CRP at 1.2 mg/L suggests early-stage inflammation — monitor closely",
       "Melatonin at 28 pg/mL indicates disrupted circadian rhythm from screen exposure",
@@ -45,7 +45,7 @@ const MOCK_ANALYSES: Record<string, object> = {
   "30m": {
     stateSignal: "FOCUS NOW",
     agentMode: "Driver 🚗 — You lead, Agent executes",
-    headline: "Strong biomarker baseline — optimal window for deep work.",
+    headline: "Peak performer — every biomarker aligned, this is your golden window.",
     keyInsights: [
       "CRP at 0.8 mg/L reflects well-controlled inflammation",
       "Telomere analysis shows biological age 1 year younger — positive longevity signal",
@@ -65,7 +65,7 @@ const MOCK_ANALYSES: Record<string, object> = {
   "41m": {
     stateSignal: "REST & RECOVER",
     agentMode: "Overseer 🛰 — Agent executes, you review",
-    headline: "Elevated inflammation and shortened telomeres — rest is non-negotiable.",
+    headline: "Burned-out — years of overwork have left a measurable mark on the biology.",
     keyInsights: [
       "CRP at 2.8 mg/L is clinically elevated — chronic inflammation detected",
       "Biological age 6 years older than chronological — urgent lifestyle intervention",
@@ -88,7 +88,7 @@ const MOCK_ANALYSES: Record<string, object> = {
   "51f": {
     stateSignal: "LIGHT WORK",
     agentMode: "Navigator 🧭 — You direct, Agent builds",
-    headline: "Moderate biomarker profile — pace yourself and let Agent carry the load.",
+    headline: "Experienced builder — solid foundation, but the body is asking for more recovery.",
     keyInsights: [
       "CRP at 1.9 mg/L indicates moderate inflammation — manageable with recovery",
       "Melatonin at 15 pg/mL is age-expected but limits deep sleep duration",
