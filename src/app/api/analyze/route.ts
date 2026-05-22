@@ -4,7 +4,7 @@ import { BiomarkerProfile } from "@/lib/biomarkers";
 const MOCK_ANALYSES: Record<string, object> = {
   "10f": {
     stateSignal: "FOCUS NOW",
-    agentMode: "human-led",
+    agentMode: "90% You · 10% Agent",
     headline: "Peak biological youth — every system is running optimally.",
     keyInsights: [
       "CRP at 0.4 mg/L signals near-zero systemic inflammation",
@@ -24,7 +24,7 @@ const MOCK_ANALYSES: Record<string, object> = {
   },
   "28m": {
     stateSignal: "LIGHT WORK",
-    agentMode: "hybrid",
+    agentMode: "50% You · 50% Agent",
     headline: "Mild inflammation and low melatonin — body needs support tonight.",
     keyInsights: [
       "CRP at 1.2 mg/L suggests early-stage inflammation — monitor closely",
@@ -44,7 +44,7 @@ const MOCK_ANALYSES: Record<string, object> = {
   },
   "30m": {
     stateSignal: "FOCUS NOW",
-    agentMode: "human-led",
+    agentMode: "90% You · 10% Agent",
     headline: "Strong biomarker baseline — optimal window for deep work.",
     keyInsights: [
       "CRP at 0.8 mg/L reflects well-controlled inflammation",
@@ -64,7 +64,7 @@ const MOCK_ANALYSES: Record<string, object> = {
   },
   "41m": {
     stateSignal: "REST & RECOVER",
-    agentMode: "agent-led",
+    agentMode: "20% You · 80% Agent",
     headline: "Elevated inflammation and shortened telomeres — rest is non-negotiable.",
     keyInsights: [
       "CRP at 2.8 mg/L is clinically elevated — chronic inflammation detected",
@@ -87,7 +87,7 @@ const MOCK_ANALYSES: Record<string, object> = {
   },
   "51f": {
     stateSignal: "LIGHT WORK",
-    agentMode: "hybrid",
+    agentMode: "50% You · 50% Agent",
     headline: "Moderate biomarker profile — pace yourself and let Agent carry the load.",
     keyInsights: [
       "CRP at 1.9 mg/L indicates moderate inflammation — manageable with recovery",

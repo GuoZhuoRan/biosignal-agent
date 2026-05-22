@@ -90,7 +90,7 @@ export default function Home() {
             <span className="bg-gradient-to-r from-green-400 to-cyan-400 bg-clip-text text-transparent">Decoded</span>
           </h1>
           <p className="text-gray-400 max-w-xl mx-auto text-sm leading-relaxed">
-            Deep biomarker analysis → AI recovery agent → Know when to push, when to rest, when to let the agent take over.
+            Deep biomarker analysis → your biological state determines how you and your Agent divide the work.
           </p>
         </div>
 
@@ -139,7 +139,7 @@ export default function Home() {
                     <div className="text-gray-300 text-sm mt-0.5">{analysis.headline}</div>
                   </div>
                   <div className="ml-auto text-right">
-                    <div className="text-xs text-gray-500">Agent Mode</div>
+                    <div className="text-xs text-gray-500">Human · Agent Split</div>
                     <div className="text-sm font-mono text-cyan-400">{analysis.agentMode}</div>
                   </div>
                 </div>
@@ -196,7 +196,7 @@ export default function Home() {
               <div className="bg-white/5 rounded-2xl border border-white/10 p-5">
                 <div className="flex items-center justify-between mb-4">
                   <h3 className="text-sm font-semibold text-gray-300">Agent Task Queue</h3>
-                  <span className="text-xs bg-green-400/20 text-green-400 px-2 py-0.5 rounded-full">Active while you sleep</span>
+                  <span className="text-xs bg-green-400/20 text-green-400 px-2 py-0.5 rounded-full">Running in parallel</span>
                 </div>
                 <div>
                   {analysis.agentTasks.map((task, i) => (
