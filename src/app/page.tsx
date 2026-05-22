@@ -139,7 +139,7 @@ export default function Home() {
                     <div className="text-gray-300 text-sm mt-0.5">{analysis.headline}</div>
                   </div>
                   <div className="ml-auto text-right">
-                    <div className="text-xs text-gray-500">Human · Agent Split</div>
+                    <div className="text-xs text-gray-500">Your Role Today</div>
                     <div className="text-sm font-mono text-cyan-400">{analysis.agentMode}</div>
                   </div>
                 </div>
